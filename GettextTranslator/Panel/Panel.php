@@ -5,7 +5,7 @@ namespace GettextTranslator;
 use Nette;
 
 
-class Panel extends Nette\Object implements Nette\Diagnostics\IBarPanel
+class Panel extends Nette\Object implements \Tracy\IBarPanel
 {
 	/** @var string */
 	private $xhrHeader = 'X-Translation-Client';
